@@ -122,17 +122,16 @@ main {
   justify-content: center;
 }
 
-.big-shares {
+.big-share {
   margin-top: 0px;
-  padding-left: 10px;
-  display: block;
+  padding-left: 20px;
+  /*display: block;*/
   color: black;
 }
 
 article {
   width: 23.5%;
   height: 550px;
-  border: 2px solid black;
   background-color: #FFFFFF;
   position: relative;
   display: inline-block;
@@ -341,7 +340,7 @@ a:hover {
   }
 
   .nav-links {
-    font-size: 8px;
+    font-size: 10px;
     padding-right: 3px;
   }
 }
@@ -436,7 +435,11 @@ a:hover {
 
   .nav-links {
     font-size: 8px;
-    width: 80%;
+    width: 60%;
+  }
+
+  .username {
+    width: 60%;
   }
 
   .left {
