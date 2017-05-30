@@ -1,0 +1,445 @@
+* body {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Shojumaru'
+}
+
+/***** HEADER ******/
+.top {
+  background-image: url(assets/tiger-stripes.jpg);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+}
+
+/***** LEFT SIDE *****/
+.left {
+  width: 50%;
+}
+
+.nav-links {
+  display: flex;
+  padding: 140px 0 30px 20px;
+  justify-content: space-between;
+  font-size: 15px;
+  width: 70%
+}
+
+.shares-icon,
+.playlist-icon,
+.videos-icon {
+  width: 15px;
+  height: 15px;
+  display: flex;
+  display: inline-block;
+}
+
+.shares,
+.playlist,
+.videos {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding-right: 0px;
+}
+
+.playlist,
+.videos {
+  color: gray;
+}
+
+.shares-div,
+.playlist-div,
+.videos-div {
+  padding-right: 10px;
+  display: flex;
+  display: inline-block;
+}
+
+/***** RIGHT SIDE *****/
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.username {
+  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+  color: #FFFFFF;
+}
+
+.paw {
+  width: 25px;
+  height: 40px;
+  padding-right: 10px;
+}
+
+.orange-triangle {
+  width: 20px;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.main-heading {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 35px 15px 0 0;
+}
+
+.tigers {
+  color: #FFFFFF;
+  font-size: 50px;
+}
+
+.tiger-icon {
+  width: 50px;
+  height: 50px;
+}
+
+/***** BODY *****/
+main {
+  width: 100%;
+  height: 100%;
+  background-color: #EFEFEF;
+  display: flex;
+  padding-top: .1px;
+}
+
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.big-shares {
+  margin-top: 0px;
+  padding-left: 10px;
+  display: block;
+  color: black;
+}
+
+article {
+  width: 23.5%;
+  height: 550px;
+  border: 2px solid black;
+  background-color: #FFFFFF;
+  position: relative;
+  display: inline-block;
+  padding: 0px;
+  margin: 5px;
+  box-shadow: 0 5px 5px 0 black;
+  flex-flow: row wrap;
+}
+
+.arrow {
+  width: 45px;
+  height: 45px;
+  padding: 10px 0 0 10px;
+}
+
+.arrow-div,
+.views-div {
+  display: inline-block;
+}
+
+.views-div {
+  float: right;
+  line-height: 0px;
+  padding: 10px 10px 0 0;
+}
+
+.views {
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+.number-of-views {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.content-of-box{
+  height: 60%;
+}
+
+.tiger-type {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.population {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.name-box {
+  color: black;
+  height: 25%;
+  width: 95%;
+  padding-left: 10px;
+}
+
+.link-box {
+  font-size: 15px;
+  background-color: #EFEFEF;;
+  width: 95%;
+  height: 25%;
+  margin: auto;
+  align-items: center;
+  display: flex;
+}
+
+
+.domain-box {
+  padding-left: 10px;
+  margin-top: 10px;
+  height: 25%;
+}
+
+.domain {
+  margin: 0px;
+  font-size: 20px;
+}
+
+.area {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.attachments-box {
+  margin-top: 0px;
+  padding-left: 10px;
+  line-height: .2px;
+  height: 25%;
+}
+
+.attachments {
+  margin: 0px;
+  font-size: 20px;
+}
+
+.attachments-number{
+  color: #FF9924;
+  font-size: 25px;
+}
+
+a:hover {
+  color: orange;
+}
+
+.siberian {
+  background-image: url(assets/siberian-tiger.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+  align-items: center;
+}
+
+.bengal {
+  background-image: url(assets/bengal-tiger.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+.sumatran {
+  background-image: url(assets/sumatrian-tiger.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+.indochinese {
+  background-image: url(assets/indochinese-tiger.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+.white {
+  background-image: url(assets/white-tiger.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+.caspian {
+  background-image: url(assets/caspian-tiger.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+.sabertooth {
+  background-image: url(assets/sabertooth.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+.clemson {
+  background-image: url(assets/clemson.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+
+@media (max-width: 1200px) {
+
+  .nav-links {
+    font-size: 12px;
+  }
+
+  article {
+    width: 32%;
+  }
+}
+
+@media (max-width: 1050px) {
+
+  article {
+    width: 31%;
+  }
+
+  .nav-links {
+    font-size: 10px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  article {
+    width: 48%;
+  }
+
+  .shares-icon,
+  .playlist-icon,
+  .videos-icon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .nav-links {
+    font-size: 8px;
+    padding-right: 3px;
+  }
+}
+
+@media (max-width: 690px) {
+  article {
+    width: 46%;
+  }
+}
+
+@media (max-width: 650px) {
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .top {
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    padding: 10px 0 10px 10px;
+    margin: auto;
+  }
+
+  .main-heading {
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    margin: auto;
+    font-size: 25px;
+  }
+
+  .tigers {
+    margin: auto;
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .username {
+    padding: 10px;
+    font-size: 12px;
+    margin: auto;
+  }
+
+  .paw,
+  .orange-triangle {
+    width: 20px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  article {
+    width: 95%;
+  }
+
+  .nav-links {
+    width: 80%;
+  }
+}
+
+@media (max-width:504px) {
+
+  .paw,
+  .orange-triangle {
+    height: 25px;
+    width: 10px;
+  }
+
+  .tiger-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .main-heading {
+    margin-top: 20px;
+    padding-left: 8px;
+  }
+
+  .admin-username {
+    margin: auto;
+  }
+}
+
+@media(max-width:452px) {
+
+  .nav-links {
+    font-size: 8px;
+    width: 80%;
+  }
+
+  .left {
+    width: 100%;
+  }
+}
